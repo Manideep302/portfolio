@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+    background-color: black;
+    color: white;
+    font-family: "Roboto";
+}
+
+.welcome-page-bg {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6)40%, rgba(0, 0, 0, 0.1)), url("https://i.ibb.co/gg3Wvsd/architecture-1665901869226-8098.jpg");
+    background-size: cover;
+}
+
+.mh {
+    margin: 0px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Copperplate Gothic;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.para {
+    color: white;
+    font-size: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.welcome-page-main-content {
+    animation: animate 6s infinite steps(100) alternate;
+}
+
+@keyframes animate {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.button-wp {
+    text-align: center;
+    width: 120px;
+    height: 32px;
+    color: white;
+    background-color: transparent;
+    border: 4px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #d0b200;
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: anima 6s infinite steps(100) forwards;
+}
+
+@keyframes anima {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 120px;
+    }
+}
+
+.navimg {
+    width: 60px;
+    height: 50px;
+}
+
+#n1 {
+    font-family: "Roboto";
+}
+
+#n2 {
+    font-family: "Roboto";
+}
+
+#n3 {
+    font-family: "Roboto";
+}
+
+#n4 {
+    font-family: "Roboto";
+}
+
+.banner {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6)30%, rgba(0, 0, 0, 0.4)), url("https://i.ibb.co/Wz1VqxB/wallpaperflare-com-wallpaper.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    box-shadow: 0px 10px 5px -6px;
+    letter-spacing: 4px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.heading {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.b-para {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.custom-bt {
+    border: 4px;
+    background-color: transparent;
+    color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #d0b200;
+}
+
+.custom-bt-sec2 {
+    border: 4px;
+    background-color: transparent;
+    color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #d0b200;
+    position: absolute;
+    margin-left: 42vw;
+}
+
+.card-1 {
+    text-align: center;
+    border: 2px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #19d18e;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0px 10px 5px -6px;
+}
+
+.card-2 {
+    text-align: center;
+    border: 2px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #d44d1c;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0px 10px 5px -6px;
+}
+
+.content {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+.c {
+    margin: 0px;
+    border: 2px;
+    border-style: solid;
+    border-color: #ba0d4d;
+    border-radius: 8px;
+}
+
+.sk {
+    margin: 0px;
+    border: 2px;
+    border-style: solid;
+    border-color: #ba0d4d;
+    border-radius: 8px;
+}
+
+.img {
+    width: 273px;
+    height: 185px;
+}
+
+.row-section {
+    text-align: center;
+    padding: 15px;
+}
+
+.rs {
+    border: 2px;
+    border-style: solid;
+    border-color: #0d80ba;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 100;
+    box-shadow: 0px 10px 5px -6px;
+}
+
+.footer {
+    text-align: center;
+    margin: 10px;
+    background-color: #000;
+    border: 2px;
+    border-radius: 10px;
+    line-height: 2.5;
+    text-decoration: none;
+}
+
+.fl {
+    text-decoration: none;
+}
+
+.bg {
+    margin-top: 10px;
+    padding: 10px;
+    height: 100vh;
+}
+
+.backg {
+    color: white;
+    border: 4px;
+    border-style: solid;
+    border-color: #19d18e;
+    border-radius: 8px;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6)70%, rgba(0, 0, 0, 0.4)), url("https://i.ibb.co/hdYddX7/abt.jpg");
+    background-size: cover;
+}
+
+.bt-class {
+    text-align: center;
+}
+
+.but {
+    border: 4px;
+    background-color: transparent;
+    color: #fff;
+    width: 130px;
+    height: 45px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #000;
+    margin: 3px;
+}
+
+.but:hover {
+    background-color: black;
+}
+
+.details {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.3)50%, rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/free-photo/front-view-stacked-books-graduation-cap-diploma-education-day_23-2149241011.jpg?w=2000");
+    background-size: cover;
+    margin: 0px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 8px;
+    color: white;
+}
+
+.schooling {
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.proj {
+    padding: 20px;
+    text-align: center;
+    border: 4px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: white;
+}
+
+.proj-data {
+    text-align: center;
+}
+
+.proj-data h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.con {
+    align-items: center;
+}
+
+.pr-pic {
+    width: 100%;
+    padding: 20px;
+}
+
+.content {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pr1-pic {
+    padding: 20px;
+    height: 450px;
+    width: 100%;
+}
+
+.b-btn {
+    border: 4px;
+    background-color: transparent;
+    color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #d0b200;
+}
+
+#section5 {
+    padding: 20px;
+}
